@@ -1,0 +1,304 @@
+Document: ID=Novo Documento de Texto.txt (5 sentences, 115 tokens)
+
+Sentence #1 (11 tokens):
+This work is focused on facial recognition using neural networks.
+
+Tokens:
+[Text=This CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=DT Lemma=this]
+[Text=work CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=NN Lemma=work]
+[Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=be]
+[Text=focused CharacterOffsetBegin=13 CharacterOffsetEnd=20 PartOfSpeech=VBN Lemma=focus]
+[Text=on CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN Lemma=on]
+[Text=facial CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=JJ Lemma=facial]
+[Text=recognition CharacterOffsetBegin=31 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=recognition]
+[Text=using CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=VBG Lemma=use]
+[Text=neural CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=JJ Lemma=neural]
+[Text=networks CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=NNS Lemma=network]
+[Text=. CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, focused-4)
+det(work-2, This-1)
+nsubj:pass(focused-4, work-2)
+aux:pass(focused-4, is-3)
+case(recognition-7, on-5)
+amod(recognition-7, facial-6)
+obl:on(focused-4, recognition-7)
+acl(recognition-7, using-8)
+amod(networks-10, neural-9)
+obj(using-8, networks-10)
+punct(focused-4, .-11)
+
+Extracted the following Open IE triples:
+1.0	work	is	focused
+1.0	work	is focused on	recognition
+1.0	work	is focused on	facial recognition
+
+Sentence #2 (36 tokens):
+Throughout the development of this work will address topics such as the history
+of facial recognition, morphology of the human face, artificial neural networks,
+topology of artificial neural networks, among others.
+
+Tokens:
+[Text=Throughout CharacterOffsetBegin=67 CharacterOffsetEnd=77 PartOfSpeech=IN Lemma=throughout]
+[Text=the CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT Lemma=the]
+[Text=development CharacterOffsetBegin=82 CharacterOffsetEnd=93 PartOfSpeech=NN Lemma=development]
+[Text=of CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN Lemma=of]
+[Text=this CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=DT Lemma=this]
+[Text=work CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NN Lemma=work]
+[Text=will CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=MD Lemma=will]
+[Text=address CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=VB Lemma=address]
+[Text=topics CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NNS Lemma=topic]
+[Text=such CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=JJ Lemma=such]
+[Text=as CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN Lemma=as]
+[Text=the CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT Lemma=the]
+[Text=history CharacterOffsetBegin=139 CharacterOffsetEnd=146 PartOfSpeech=NN Lemma=history]
+[Text=of CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=of]
+[Text=facial CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=JJ Lemma=facial]
+[Text=recognition CharacterOffsetBegin=158 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=recognition]
+[Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=, Lemma=,]
+[Text=morphology CharacterOffsetBegin=171 CharacterOffsetEnd=181 PartOfSpeech=NN Lemma=morphology]
+[Text=of CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN Lemma=of]
+[Text=the CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=DT Lemma=the]
+[Text=human CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=JJ Lemma=human]
+[Text=face CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=face]
+[Text=, CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=, Lemma=,]
+[Text=artificial CharacterOffsetBegin=201 CharacterOffsetEnd=211 PartOfSpeech=JJ Lemma=artificial]
+[Text=neural CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=JJ Lemma=neural]
+[Text=networks CharacterOffsetBegin=219 CharacterOffsetEnd=227 PartOfSpeech=NNS Lemma=network]
+[Text=, CharacterOffsetBegin=227 CharacterOffsetEnd=228 PartOfSpeech=, Lemma=,]
+[Text=topology CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=topology]
+[Text=of CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN Lemma=of]
+[Text=artificial CharacterOffsetBegin=242 CharacterOffsetEnd=252 PartOfSpeech=JJ Lemma=artificial]
+[Text=neural CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=JJ Lemma=neural]
+[Text=networks CharacterOffsetBegin=260 CharacterOffsetEnd=268 PartOfSpeech=NNS Lemma=network]
+[Text=, CharacterOffsetBegin=268 CharacterOffsetEnd=269 PartOfSpeech=, Lemma=,]
+[Text=among CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=IN Lemma=among]
+[Text=others CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNS Lemma=other]
+[Text=. CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, address-8)
+case(development-3, Throughout-1)
+det(development-3, the-2)
+obl:throughout(address-8, development-3)
+case(work-6, of-4)
+det(work-6, this-5)
+nmod:of(development-3, work-6)
+aux(address-8, will-7)
+obj(address-8, topics-9)
+case(history-13, such-10)
+fixed(such-10, as-11)
+det(history-13, the-12)
+nmod:such_as(topics-9, history-13)
+case(recognition-16, of-14)
+amod(recognition-16, facial-15)
+nmod:of(history-13, recognition-16)
+punct(recognition-16, ,-17)
+appos(recognition-16, morphology-18)
+case(face-22, of-19)
+det(face-22, the-20)
+amod(face-22, human-21)
+nmod:of(morphology-18, face-22)
+punct(recognition-16, ,-23)
+amod(networks-26, artificial-24)
+amod(networks-26, neural-25)
+appos(recognition-16, networks-26)
+punct(recognition-16, ,-27)
+appos(recognition-16, topology-28)
+case(networks-32, of-29)
+amod(networks-32, artificial-30)
+amod(networks-32, neural-31)
+nmod:of(topology-28, networks-32)
+punct(recognition-16, ,-33)
+case(others-35, among-34)
+nmod:among(recognition-16, others-35)
+punct(address-8, .-36)
+
+Extracted the following Open IE triples:
+1.0	others	among recognition is	topology of artificial neural networks
+1.0	others	among recognition is	artificial neural networks
+1.0	facial recognition	morphology of	human face
+1.0	facial recognition	topology of	artificial neural networks
+1.0	others	among recognition is	morphology of human face
+
+Sentence #3 (23 tokens):
+In the work of the
+composition will be also discussed the types of face patterns, as well as its main
+features.
+
+Tokens:
+[Text=In CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=IN Lemma=in]
+[Text=the CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=DT Lemma=the]
+[Text=work CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=NN Lemma=work]
+[Text=of CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN Lemma=of]
+[Text=the CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=DT Lemma=the]
+[Text=composition CharacterOffsetBegin=304 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=composition]
+[Text=will CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=MD Lemma=will]
+[Text=be CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=VB Lemma=be]
+[Text=also CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=RB Lemma=also]
+[Text=discussed CharacterOffsetBegin=329 CharacterOffsetEnd=338 PartOfSpeech=VBN Lemma=discuss]
+[Text=the CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=the]
+[Text=types CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NNS Lemma=type]
+[Text=of CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN Lemma=of]
+[Text=face CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=NN Lemma=face]
+[Text=patterns CharacterOffsetBegin=357 CharacterOffsetEnd=365 PartOfSpeech=NNS Lemma=pattern]
+[Text=, CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=, Lemma=,]
+[Text=as CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=RB Lemma=as]
+[Text=well CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=RB Lemma=well]
+[Text=as CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=IN Lemma=as]
+[Text=its CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=PRP$ Lemma=its]
+[Text=main CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=JJ Lemma=main]
+[Text=features CharacterOffsetBegin=388 CharacterOffsetEnd=396 PartOfSpeech=NNS Lemma=feature]
+[Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, discussed-10)
+case(work-3, In-1)
+det(work-3, the-2)
+obl:in(discussed-10, work-3)
+case(composition-6, of-4)
+det(composition-6, the-5)
+nmod:of(work-3, composition-6)
+aux(discussed-10, will-7)
+aux:pass(discussed-10, be-8)
+advmod(discussed-10, also-9)
+det(types-12, the-11)
+obj(discussed-10, types-12)
+case(patterns-15, of-13)
+compound(patterns-15, face-14)
+nmod:of(types-12, patterns-15)
+punct(types-12, ,-16)
+cc(features-22, as-17)
+fixed(as-17, well-18)
+fixed(as-17, as-19)
+nmod:poss(features-22, its-20)
+amod(features-22, main-21)
+obj(discussed-10, features-22)
+conj:and(types-12, features-22)
+punct(discussed-10, .-23)
+
+Sentence #4 (23 tokens):
+The paper presents a brief description of the programs that were used
+for making face metrics program being they OpenCV and Python.
+
+Tokens:
+[Text=The CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=DT Lemma=the]
+[Text=paper CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=NN Lemma=paper]
+[Text=presents CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=VBZ Lemma=present]
+[Text=a CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=DT Lemma=a]
+[Text=brief CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=JJ Lemma=brief]
+[Text=description CharacterOffsetBegin=425 CharacterOffsetEnd=436 PartOfSpeech=NN Lemma=description]
+[Text=of CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN Lemma=of]
+[Text=the CharacterOffsetBegin=440 CharacterOffsetEnd=443 PartOfSpeech=DT Lemma=the]
+[Text=programs CharacterOffsetBegin=444 CharacterOffsetEnd=452 PartOfSpeech=NNS Lemma=program]
+[Text=that CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=WDT Lemma=that]
+[Text=were CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=VBD Lemma=be]
+[Text=used CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=VBN Lemma=use]
+[Text=for CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=IN Lemma=for]
+[Text=making CharacterOffsetBegin=473 CharacterOffsetEnd=479 PartOfSpeech=VBG Lemma=make]
+[Text=face CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=NN Lemma=face]
+[Text=metrics CharacterOffsetBegin=485 CharacterOffsetEnd=492 PartOfSpeech=NNS Lemma=metric]
+[Text=program CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=program]
+[Text=being CharacterOffsetBegin=501 CharacterOffsetEnd=506 PartOfSpeech=VBG Lemma=be]
+[Text=they CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=PRP Lemma=they]
+[Text=OpenCV CharacterOffsetBegin=512 CharacterOffsetEnd=518 PartOfSpeech=NN Lemma=opencv]
+[Text=and CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=CC Lemma=and]
+[Text=Python CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NN Lemma=python]
+[Text=. CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, presents-3)
+det(paper-2, The-1)
+nsubj(presents-3, paper-2)
+det(description-6, a-4)
+amod(description-6, brief-5)
+obj(presents-3, description-6)
+case(programs-9, of-7)
+det(programs-9, the-8)
+nmod:of(description-6, programs-9)
+nsubj:pass(used-12, programs-9)
+ref(programs-9, that-10)
+aux:pass(used-12, were-11)
+acl:relcl(programs-9, used-12)
+case(program-17, for-13)
+amod(program-17, making-14)
+compound(metrics-16, face-15)
+compound(program-17, metrics-16)
+obl:for(used-12, program-17)
+cop(OpenCV-20, being-18)
+nsubj(OpenCV-20, they-19)
+dep(program-17, OpenCV-20)
+cc(Python-22, and-21)
+dep(program-17, Python-22)
+conj:and(OpenCV-20, Python-22)
+punct(presents-3, .-23)
+
+Extracted the following Open IE triples:
+1.0	paper	presents	description of programs
+1.0	paper	presents	brief description of programs
+1.0	paper	presents	description
+1.0	paper	presents	brief description
+
+Sentence #5 (22 tokens):
+At the end of
+the tests made in the present neural network for the recognition of faces based
+on their metrics.
+
+Tokens:
+[Text=At CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=IN Lemma=at]
+[Text=the CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=DT Lemma=the]
+[Text=end CharacterOffsetBegin=538 CharacterOffsetEnd=541 PartOfSpeech=NN Lemma=end]
+[Text=of CharacterOffsetBegin=542 CharacterOffsetEnd=544 PartOfSpeech=IN Lemma=of]
+[Text=the CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=DT Lemma=the]
+[Text=tests CharacterOffsetBegin=550 CharacterOffsetEnd=555 PartOfSpeech=NNS Lemma=test]
+[Text=made CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=VBN Lemma=make]
+[Text=in CharacterOffsetBegin=561 CharacterOffsetEnd=563 PartOfSpeech=IN Lemma=in]
+[Text=the CharacterOffsetBegin=564 CharacterOffsetEnd=567 PartOfSpeech=DT Lemma=the]
+[Text=present CharacterOffsetBegin=568 CharacterOffsetEnd=575 PartOfSpeech=JJ Lemma=present]
+[Text=neural CharacterOffsetBegin=576 CharacterOffsetEnd=582 PartOfSpeech=JJ Lemma=neural]
+[Text=network CharacterOffsetBegin=583 CharacterOffsetEnd=590 PartOfSpeech=NN Lemma=network]
+[Text=for CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=IN Lemma=for]
+[Text=the CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=DT Lemma=the]
+[Text=recognition CharacterOffsetBegin=599 CharacterOffsetEnd=610 PartOfSpeech=NN Lemma=recognition]
+[Text=of CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=IN Lemma=of]
+[Text=faces CharacterOffsetBegin=614 CharacterOffsetEnd=619 PartOfSpeech=NNS Lemma=face]
+[Text=based CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=VBN Lemma=base]
+[Text=on CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=IN Lemma=on]
+[Text=their CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=PRP$ Lemma=they]
+[Text=metrics CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNS Lemma=metric]
+[Text=. CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, end-3)
+case(end-3, At-1)
+det(end-3, the-2)
+case(tests-6, of-4)
+det(tests-6, the-5)
+nmod:of(end-3, tests-6)
+acl(end-3, made-7)
+case(network-12, in-8)
+det(network-12, the-9)
+amod(network-12, present-10)
+amod(network-12, neural-11)
+obl:in(made-7, network-12)
+case(recognition-15, for-13)
+det(recognition-15, the-14)
+obl:for(made-7, recognition-15)
+case(faces-17, of-16)
+nmod:of(recognition-15, faces-17)
+case(metrics-21, based-18)
+fixed(based-18, on-19)
+nmod:poss(metrics-21, their-20)
+nmod:based_on(recognition-15, metrics-21)
+punct(end-3, .-22)
+
+Extracted the following Open IE triples:
+1.0	end	made for	recognition
+1.0	end	made in	neural network
+1.0	end	made in	present network
+1.0	end	made in	present neural network
+1.0	end	made for	recognition faces
+1.0	end	made for	recognition faces their metrics
+1.0	end	made for	recognition their metrics
+1.0	end	made in	network

@@ -1,0 +1,306 @@
+Document: ID=Exemplo.txt (3 sentences, 120 tokens)
+
+Sentence #1 (27 tokens):
+A lot of information may not be found in the Web ought to the lack of
+tools capable of treating semantically the information contained in documents.
+
+Tokens:
+[Text=A CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=DT Lemma=a]
+[Text=lot CharacterOffsetBegin=2 CharacterOffsetEnd=5 PartOfSpeech=NN Lemma=lot]
+[Text=of CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=IN Lemma=of]
+[Text=information CharacterOffsetBegin=9 CharacterOffsetEnd=20 PartOfSpeech=NN Lemma=information]
+[Text=may CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=MD Lemma=may]
+[Text=not CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=RB Lemma=not]
+[Text=be CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VB Lemma=be]
+[Text=found CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=VBN Lemma=find]
+[Text=in CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=IN Lemma=in]
+[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT Lemma=the]
+[Text=Web CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=NN Lemma=web]
+[Text=ought CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=MD Lemma=ought]
+[Text=to CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=IN Lemma=to]
+[Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT Lemma=the]
+[Text=lack CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=lack]
+[Text=of CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=of]
+[Text=tools CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNS Lemma=tool]
+[Text=capable CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=JJ Lemma=capable]
+[Text=of CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=IN Lemma=of]
+[Text=treating CharacterOffsetBegin=88 CharacterOffsetEnd=96 PartOfSpeech=VBG Lemma=treat]
+[Text=semantically CharacterOffsetBegin=97 CharacterOffsetEnd=109 PartOfSpeech=RB Lemma=semantically]
+[Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT Lemma=the]
+[Text=information CharacterOffsetBegin=114 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=information]
+[Text=contained CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=VBN Lemma=contain]
+[Text=in CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN Lemma=in]
+[Text=documents CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=NNS Lemma=document]
+[Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, found-8)
+det:qmod(information-4, A-1)
+fixed(A-1, lot-2)
+fixed(A-1, of-3)
+nsubj:pass(found-8, information-4)
+aux(found-8, may-5)
+advmod(found-8, not-6)
+aux:pass(found-8, be-7)
+case(Web-11, in-9)
+det(Web-11, the-10)
+obl:in(found-8, Web-11)
+dep(found-8, ought-12)
+case(lack-15, to-13)
+det(lack-15, the-14)
+obl:to(ought-12, lack-15)
+case(tools-17, of-16)
+nmod:of(lack-15, tools-17)
+amod(tools-17, capable-18)
+case(treating-20, of-19)
+advcl:of(capable-18, treating-20)
+advmod(treating-20, semantically-21)
+det(information-23, the-22)
+obj(treating-20, information-23)
+acl(information-23, contained-24)
+case(documents-26, in-25)
+obl:in(contained-24, documents-26)
+punct(found-8, .-27)
+
+Sentence #2 (19 tokens):
+This work shows that ontologies can play a crucial role in cooperative
+information gathering (CIG) systems.
+
+Tokens:
+[Text=This CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=DT Lemma=this]
+[Text=work CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=work]
+[Text=shows CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=VBZ Lemma=show]
+[Text=that CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=IN Lemma=that]
+[Text=ontologies CharacterOffsetBegin=172 CharacterOffsetEnd=182 PartOfSpeech=NNS Lemma=ontology]
+[Text=can CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=MD Lemma=can]
+[Text=play CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=VB Lemma=play]
+[Text=a CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=DT Lemma=a]
+[Text=crucial CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=JJ Lemma=crucial]
+[Text=role CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NN Lemma=role]
+[Text=in CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN Lemma=in]
+[Text=cooperative CharacterOffsetBegin=210 CharacterOffsetEnd=221 PartOfSpeech=JJ Lemma=cooperative]
+[Text=information CharacterOffsetBegin=223 CharacterOffsetEnd=234 PartOfSpeech=NN Lemma=information]
+[Text=gathering CharacterOffsetBegin=235 CharacterOffsetEnd=244 PartOfSpeech=NN Lemma=gathering]
+[Text=( CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=-LRB- Lemma=(]
+[Text=CIG CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=NN Lemma=cig]
+[Text=) CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=-RRB- Lemma=)]
+[Text=systems CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=NNS Lemma=system]
+[Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, shows-3)
+det(work-2, This-1)
+nsubj(shows-3, work-2)
+mark(play-7, that-4)
+nsubj(play-7, ontologies-5)
+aux(play-7, can-6)
+ccomp(shows-3, play-7)
+det(role-10, a-8)
+amod(role-10, crucial-9)
+obj(play-7, role-10)
+case(gathering-14, in-11)
+amod(gathering-14, cooperative-12)
+compound(gathering-14, information-13)
+obl:in(play-7, gathering-14)
+punct(gathering-14, (-15)
+dep(gathering-14, CIG-16)
+punct(gathering-14, )-17)
+dep(gathering-14, systems-18)
+punct(shows-3, .-19)
+
+Extracted the following Open IE triples:
+1.0	ontologies	play	role
+1.0	ontologies	play role in	cooperative information gathering
+1.0	ontologies	play	crucial role
+1.0	ontologies	play role in	information gathering
+
+Sentence #3 (74 tokens):
+The experiments have led us to draw
+two interesting conclusions: (1) the use of a thoroughly detailed ontology
+about a given domain assure promising results for classification, even with the
+application of simple techniques such as a small set of production rules; (2) an
+ontology-based CIG system can be easily carried for other domains, provided
+that a detailed ontology exists for this domain.
+
+Tokens:
+[Text=The CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT Lemma=the]
+[Text=experiments CharacterOffsetBegin=264 CharacterOffsetEnd=275 PartOfSpeech=NNS Lemma=experiment]
+[Text=have CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=VBP Lemma=have]
+[Text=led CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=VBN Lemma=lead]
+[Text=us CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=PRP Lemma=we]
+[Text=to CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=TO Lemma=to]
+[Text=draw CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VB Lemma=draw]
+[Text=two CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=CD Lemma=two]
+[Text=interesting CharacterOffsetBegin=301 CharacterOffsetEnd=312 PartOfSpeech=JJ Lemma=interesting]
+[Text=conclusions CharacterOffsetBegin=313 CharacterOffsetEnd=324 PartOfSpeech=NNS Lemma=conclusion]
+[Text=: CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=: Lemma=:]
+[Text=( CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=-LRB- Lemma=(]
+[Text=1 CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=LS Lemma=1]
+[Text=) CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=-RRB- Lemma=)]
+[Text=the CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=DT Lemma=the]
+[Text=use CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=NN Lemma=use]
+[Text=of CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN Lemma=of]
+[Text=a CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=a]
+[Text=thoroughly CharacterOffsetBegin=343 CharacterOffsetEnd=353 PartOfSpeech=RB Lemma=thoroughly]
+[Text=detailed CharacterOffsetBegin=354 CharacterOffsetEnd=362 PartOfSpeech=VBN Lemma=detail]
+[Text=ontology CharacterOffsetBegin=363 CharacterOffsetEnd=371 PartOfSpeech=NN Lemma=ontology]
+[Text=about CharacterOffsetBegin=373 CharacterOffsetEnd=378 PartOfSpeech=IN Lemma=about]
+[Text=a CharacterOffsetBegin=379 CharacterOffsetEnd=380 PartOfSpeech=DT Lemma=a]
+[Text=given CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=VBN Lemma=give]
+[Text=domain CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=NN Lemma=domain]
+[Text=assure CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=VB Lemma=assure]
+[Text=promising CharacterOffsetBegin=401 CharacterOffsetEnd=410 PartOfSpeech=JJ Lemma=promising]
+[Text=results CharacterOffsetBegin=411 CharacterOffsetEnd=418 PartOfSpeech=NNS Lemma=result]
+[Text=for CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=IN Lemma=for]
+[Text=classification CharacterOffsetBegin=423 CharacterOffsetEnd=437 PartOfSpeech=NN Lemma=classification]
+[Text=, CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=, Lemma=,]
+[Text=even CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=RB Lemma=even]
+[Text=with CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=IN Lemma=with]
+[Text=the CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=DT Lemma=the]
+[Text=application CharacterOffsetBegin=454 CharacterOffsetEnd=465 PartOfSpeech=NN Lemma=application]
+[Text=of CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=IN Lemma=of]
+[Text=simple CharacterOffsetBegin=469 CharacterOffsetEnd=475 PartOfSpeech=JJ Lemma=simple]
+[Text=techniques CharacterOffsetBegin=476 CharacterOffsetEnd=486 PartOfSpeech=NNS Lemma=technique]
+[Text=such CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=JJ Lemma=such]
+[Text=as CharacterOffsetBegin=492 CharacterOffsetEnd=494 PartOfSpeech=IN Lemma=as]
+[Text=a CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=DT Lemma=a]
+[Text=small CharacterOffsetBegin=497 CharacterOffsetEnd=502 PartOfSpeech=JJ Lemma=small]
+[Text=set CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=NN Lemma=set]
+[Text=of CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=IN Lemma=of]
+[Text=production CharacterOffsetBegin=510 CharacterOffsetEnd=520 PartOfSpeech=NN Lemma=production]
+[Text=rules CharacterOffsetBegin=521 CharacterOffsetEnd=526 PartOfSpeech=NNS Lemma=rule]
+[Text=; CharacterOffsetBegin=526 CharacterOffsetEnd=527 PartOfSpeech=: Lemma=;]
+[Text=( CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=-LRB- Lemma=(]
+[Text=2 CharacterOffsetBegin=529 CharacterOffsetEnd=530 PartOfSpeech=LS Lemma=2]
+[Text=) CharacterOffsetBegin=530 CharacterOffsetEnd=531 PartOfSpeech=-RRB- Lemma=)]
+[Text=an CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=DT Lemma=a]
+[Text=ontology CharacterOffsetBegin=536 CharacterOffsetEnd=544 PartOfSpeech=NN Lemma=ontology]
+[Text=- CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=HYPH Lemma=-]
+[Text=based CharacterOffsetBegin=545 CharacterOffsetEnd=550 PartOfSpeech=VBN Lemma=base]
+[Text=CIG CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=NN Lemma=cig]
+[Text=system CharacterOffsetBegin=555 CharacterOffsetEnd=561 PartOfSpeech=NN Lemma=system]
+[Text=can CharacterOffsetBegin=562 CharacterOffsetEnd=565 PartOfSpeech=MD Lemma=can]
+[Text=be CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=VB Lemma=be]
+[Text=easily CharacterOffsetBegin=569 CharacterOffsetEnd=575 PartOfSpeech=RB Lemma=easily]
+[Text=carried CharacterOffsetBegin=576 CharacterOffsetEnd=583 PartOfSpeech=VBN Lemma=carry]
+[Text=for CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=IN Lemma=for]
+[Text=other CharacterOffsetBegin=588 CharacterOffsetEnd=593 PartOfSpeech=JJ Lemma=other]
+[Text=domains CharacterOffsetBegin=594 CharacterOffsetEnd=601 PartOfSpeech=NNS Lemma=domain]
+[Text=, CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=, Lemma=,]
+[Text=provided CharacterOffsetBegin=603 CharacterOffsetEnd=611 PartOfSpeech=VBD Lemma=provide]
+[Text=that CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=IN Lemma=that]
+[Text=a CharacterOffsetBegin=618 CharacterOffsetEnd=619 PartOfSpeech=DT Lemma=a]
+[Text=detailed CharacterOffsetBegin=620 CharacterOffsetEnd=628 PartOfSpeech=JJ Lemma=detailed]
+[Text=ontology CharacterOffsetBegin=629 CharacterOffsetEnd=637 PartOfSpeech=NN Lemma=ontology]
+[Text=exists CharacterOffsetBegin=638 CharacterOffsetEnd=644 PartOfSpeech=VBZ Lemma=exist]
+[Text=for CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=IN Lemma=for]
+[Text=this CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=DT Lemma=this]
+[Text=domain CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=NN Lemma=domain]
+[Text=. CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=. Lemma=.]
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, led-4)
+det(experiments-2, The-1)
+nsubj(led-4, experiments-2)
+aux(led-4, have-3)
+obj(led-4, us-5)
+nsubj:xsubj(draw-7, us-5)
+mark(draw-7, to-6)
+xcomp(led-4, draw-7)
+nummod(conclusions-10, two-8)
+amod(conclusions-10, interesting-9)
+obj(draw-7, conclusions-10)
+punct(draw-7, :-11)
+punct(1-13, (-12)
+dep(assure-26, 1-13)
+punct(1-13, )-14)
+det(use-16, the-15)
+nsubj(assure-26, use-16)
+case(ontology-21, of-17)
+det(ontology-21, a-18)
+advmod(detailed-20, thoroughly-19)
+amod(ontology-21, detailed-20)
+nmod:of(use-16, ontology-21)
+case(domain-25, about-22)
+det(domain-25, a-23)
+amod(domain-25, given-24)
+nmod:about(use-16, domain-25)
+parataxis(draw-7, assure-26)
+amod(results-28, promising-27)
+obj(assure-26, results-28)
+case(classification-30, for-29)
+nmod:for(results-28, classification-30)
+punct(assure-26, ,-31)
+advmod(application-35, even-32)
+case(application-35, with-33)
+det(application-35, the-34)
+obl:with(assure-26, application-35)
+case(techniques-38, of-36)
+amod(techniques-38, simple-37)
+nmod:of(application-35, techniques-38)
+case(set-43, such-39)
+fixed(such-39, as-40)
+det(set-43, a-41)
+amod(set-43, small-42)
+nmod:such_as(techniques-38, set-43)
+case(rules-46, of-44)
+compound(rules-46, production-45)
+nmod:of(set-43, rules-46)
+punct(assure-26, ;-47)
+punct(2-49, (-48)
+dep(carried-60, 2-49)
+punct(2-49, )-50)
+det(system-56, an-51)
+obl(based-54, ontology-52)
+punct(based-54, --53)
+amod(system-56, based-54)
+compound(system-56, CIG-55)
+nsubj:pass(carried-60, system-56)
+aux(carried-60, can-57)
+aux:pass(carried-60, be-58)
+advmod(carried-60, easily-59)
+parataxis(assure-26, carried-60)
+case(domains-63, for-61)
+amod(domains-63, other-62)
+obl:for(carried-60, domains-63)
+punct(carried-60, ,-64)
+dep(carried-60, provided-65)
+mark(exists-70, that-66)
+det(ontology-69, a-67)
+amod(ontology-69, detailed-68)
+nsubj(exists-70, ontology-69)
+ccomp(provided-65, exists-70)
+case(domain-73, for-71)
+det(domain-73, this-72)
+obl:for(exists-70, domain-73)
+punct(led-4, .-74)
+
+Extracted the following Open IE triples:
+1.0	CIG system	can	can easily carried for other domains
+1.0	based CIG system	can	can carried for domains
+1.0	based CIG system	can	can carried for other domains
+1.0	based CIG system	can	can easily carried for domains
+1.0	use	assure	results
+1.0	CIG system	can	can carried for domains
+1.0	CIG system	can	can carried
+1.0	use	assure results with	even application
+1.0	use	assure	promising results for classification
+1.0	CIG system	can	can easily carried
+1.0	based CIG system	can	can carried
+1.0	CIG system	can	can easily carried for domains
+1.0	based CIG system	can	can easily carried
+1.0	use	assure	results for classification
+1.0	detailed ontology	exists for	domain
+1.0	use	assure results with	even application of simple techniques
+1.0	use	assure	promising results
+1.0	use	assure results with	even application of techniques
+1.0	use	assure results with	application of techniques
+1.0	use	assure results with	application of simple techniques
+1.0	use	assure results with	application
+1.0	us	draw	two conclusions
+1.0	experiments	have led	us
+1.0	based CIG system	can	can easily carried for other domains
+1.0	ontology	exists for	domain
+0.68056135664943	use	promising results for	classification
+0.68056135664943	use	results for	classification
+1.0	CIG system	can	can carried for other domains
